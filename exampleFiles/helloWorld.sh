@@ -1,10 +1,10 @@
 #!/bin/sh
 
-#
-# Implement the requirements below:
-#
-# The Nice-to-have's are optional but may be beneficial to your course.
-#
+###
+## Implement the requirements below:
+##
+## The Nice-to-have's are optional but may be beneficial to your course.
+###
 
 echo "Hello World! My volumes have been mounted to the Classy host and I am starting to run my script."
 
@@ -14,12 +14,12 @@ echo "... "
 
 mv '/app/report.json' '/output/staff/report.json'
 
-# Requirements:
+## Requirements:
 
 echo "#1: I have moved a pre-built 'report.json' into the /output/staff/ directory."
 echo "My pre-built report.json matches the schema: https://github.com/ubccpsc/classy/blob/956e78328c14146e2246b89f1fe0c6e60cb689ed/packages/common/types/ContainerTypes.ts#L69-L106"
 
-# Nice to Have's:
+## Nice to Have's:
 
 echo "Nice to Have's:"
 echo "#1: I have a left-over data from building the report. I suppose that I can produce an HTML coverage report."

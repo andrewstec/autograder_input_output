@@ -9,6 +9,7 @@ RUN chmod -R 777 .
 
 VOLUME ["/output"]
 VOLUME ["/assn"]
+RUN chmod -R 777 /output
 
 COPY exampleFiles/report.json /app/report.json
 COPY exampleFiles/helloWorld.sh /app/helloWorld.sh

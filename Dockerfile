@@ -11,6 +11,7 @@ RUN chmod -R 777 .
 
 COPY exampleFiles/report.json /app/report.json
 COPY exampleFiles/helloWorld.sh /app/helloWorld.sh
+COPY exampleFiles/report.json /output/staff/report.json
 
 RUN chmod -R 777 .
 

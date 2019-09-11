@@ -9,7 +9,7 @@
 echo "Hello World! My volumes have been mounted to the Classy host and I am starting to run my script."
 
 echo "... "
-echo "... This is where I can begin to run my business logic to mark my assignments. I can find the assignment cloned and checked out to the correct commit SHA in the `/assn` directory, where Classy mounted it."
+echo "... This is where I can begin to run my business logic to mark my assignments. I can find the assignment cloned and checked out to the correct commit SHA in the /assn directory, where Classy mounted it."
 echo "... "
 
 mv '/app/report.json' '/output/staff/report.json'

@@ -9,6 +9,9 @@ RUN mkdir -p /output/staff && mkdir /output/admin && mkdir /output/student
 
 RUN chmod -R 777 .
 
+VOLUME ["/output"]
+VOLUME ["/assn"]
+
 COPY exampleFiles/report.json /app/report.json
 COPY exampleFiles/helloWorld.sh /app/helloWorld.sh
 COPY exampleFiles/report.json /output/staff/report.json

@@ -1,6 +1,6 @@
 ## Pre-compiled Linux distributions with pre-installed Node JS, Java, Python, etc. are available.
 ## https://hub.docker.com/search/?type=image
-FROM node:8-alpine
+FROM debian:wheezy
 
 WORKDIR /app
 
@@ -11,5 +11,5 @@ COPY exampleFiles/report.json /app/report.json
 COPY exampleFiles/helloWorld.sh /app/helloWorld.sh
 
 ## CMD will trigger a script to run each time your container is instantiated after code is pushed.
-CMD ["helloWorld.sh"]
+CMD ["/app/helloWorld.sh"]
 

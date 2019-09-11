@@ -14,7 +14,9 @@ echo "... "
 
 pwd
 find . -name report.json
-mv 'report.json' '/output/staff/report.json'
+
+
+mv './report.json' '/output/staff/report.json'
 
 ## Requirements:
 

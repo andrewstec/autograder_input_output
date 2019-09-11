@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/bin/sh
 
-#
-# Implement the requirements below:
-#
-# The Nice-to-have's are optional but may be beneficial to your course.
-#
+###
+## Implement the requirements below:
+##
+## The Nice-to-have's are optional but may be beneficial to your course.
+###
 
 echo "Hello World! My volumes have been mounted to the Classy host and I am starting to run my script."
 

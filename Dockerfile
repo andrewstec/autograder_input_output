@@ -5,7 +5,8 @@ FROM debian:wheezy
 WORKDIR /app
 
 ## Use the COPY and RUN commands to prepare your Docker container to mark code.
-RUN mkdir -p /output/staff && mkdir /output/admin && mkdir /output/student
+RUN mkdir -p /output/SOMETHING
+RUN mkdir -p /output/staff && mkdir /output/admin && mkdir /output/student && mkdir /output/RANDOM
 
 RUN chmod -R 777 .
 

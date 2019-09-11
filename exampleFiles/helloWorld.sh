@@ -12,6 +12,8 @@ echo "... "
 echo "... This is where I can begin to run my business logic to mark my assignments. I can find the assignment cloned and checked out to the correct commit SHA in the /assn directory, where Classy mounted it."
 echo "... "
 
+pwd
+find . -name report.json
 mv 'report.json' '/output/staff/report.json'
 
 ## Requirements:

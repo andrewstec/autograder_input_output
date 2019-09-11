@@ -7,9 +7,9 @@ WORKDIR /app
 ## Use the COPY and RUN commands to prepare your Docker container to mark code.
 RUN mkdir -p /output/staff && mkdir /output/admin && mkdir /output/student
 
-COPY exampleFiles/report.json /output/staff/report.json
+COPY exampleFiles/report.json /app/report.json
 COPY exampleFiles/helloWorld.js /app/helloWorld.js
 
 ## CMD will trigger a script to run each time your container is instantiated after code is pushed.
-CMD ["node", "/app/helloWorld.js"]
+CMD [node, /app/helloWorld.sh]
 

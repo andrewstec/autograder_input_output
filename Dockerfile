@@ -11,5 +11,5 @@ COPY exampleFiles/report.json /app/report.json
 COPY exampleFiles/helloWorld.sh /app/helloWorld.sh
 
 ## CMD will trigger a script to run each time your container is instantiated after code is pushed.
-CMD ["./app/helloWorld.sh"]
+CMD ["helloWorld.sh"]
 

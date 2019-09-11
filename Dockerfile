@@ -13,5 +13,5 @@ COPY exampleFiles/helloWorld.sh /app/helloWorld.sh
 RUN chmod -R 777 .
 
 ## CMD will trigger a script to run each time your container is instantiated after code is pushed.
-CMD ["helloWorld.sh"]
+CMD ["/app/helloWorld.sh"]
 

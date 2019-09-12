@@ -10,13 +10,11 @@ echo "Hello World! My volumes have been mounted to the Classy host and I am star
 
 echo "... "
 echo "... This is where I can begin to run my business logic to mark my assignments. I can find the assignment cloned and checked out to the correct commit SHA in the /assn directory, where Classy mounted it."
-echo "... "
+echo "... \n\n"
 
-ls -lh /output
-ls -lh /app
-mkdir /output/staff
 mv '/app/report.json' '/output/staff/report.json'
-ls -lh /output/staff
+ls -lh /output/
+echo "\n\n"
 
 ## Requirements:
 

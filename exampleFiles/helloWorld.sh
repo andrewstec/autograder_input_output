@@ -14,7 +14,9 @@ echo "... "
 
 ls -lh /output
 ls -lh /app
+mkdir /output/staff
 mv '/app/report.json' '/output/staff/report.json'
+ls -lh /output/staff
 
 ## Requirements:
 
@@ -30,4 +32,3 @@ echo "    Anything that I put in the /output/student/ directory will be accessib
 echo "#2: I want log information accessible to an admin, so I will move it into the /output/admin folder."
 
 echo "#3: I want my TAs to be able to see the original student code and test results at the time of marking, so I have moved a copy into the /output/staff folder."
-

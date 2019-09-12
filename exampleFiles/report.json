@@ -1,14 +1,15 @@
-{ report: 
-   { scoreOverall: 0,
-     scoreCover: null,
-     scoreTest: null,
-     feedback: 'Your container has completed. This string is the feedback property in the report.json file placed in the `/output` folder.',
-     passNames: [],
-     skipNames: [],
-     failNames: [],
-     errorNames: [],
-     result: 'FAIL',
-     attachments: [],
-     custom: {} 
-   } 
+{
+    "report": {
+        "scoreOverall": 0,
+        "scoreCover": null,
+		"scoreTest": null,
+		"feedback": "Your container has completed. This string is the feedback property in the report.json file placed in the `/output` folder.",
+		"passNames": [],
+		"skipNames": [],
+		"failNames": [],
+		"errorNames": [],
+		"result": "FAIL",
+		"attachments": [],
+		"custom": {}
+    }
 }
